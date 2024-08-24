@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title> Global Herbals</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="header">
+        <a href=""><img src="https://i.pinimg.com/originals/33/14/ea/3314ea98b21217ad1c66bcae14ecfdaa.png" width="150px" height="100px" class="logo" alt=""></a>
+   
+        <div class="image_gallery">
+            <div>
+              <a href="#" target="_blank">
+                <img src="./img/img.jpg" alt="" />
+              </a>
+            </div>
+            <div class="v_img">
+              <a href="#" target="_blank">
+                <img src="./img/img1.jpg" alt="" />
+              </a>
+            </div>
+            <div class="h_img">
+              <a href="#" target="_blank">
+                <img src="./img/img2.jpg" alt="" />
+              </a>
+            </div>
+            <div class="l_img">
+              <a href="#" target="_blank">
+                <img src="./img/img.jpg" alt="" />
+              </a>
+            </div>
+            <div class="h_img">
+              <a href="#" target="_blank">
+                <img src="./img/img3.jpg" alt="" />
+              </a>
+            </div>
+          </div>
+
+        <div>
+            <ul id="navbar">
+                <div class="searchbar">
+                <div class="search">
+                   
+                   
+                   
+                    
+                    </div>
+                    <script src="script.js"></script>
+                </div>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                
+                <li id="account"><a href="login.html"><i class="fa fa-user-circle" aria-hidden="true"></i></a></li>
+            
+            </ul>
+        </div>
+      
+    </section>
+
+    
+        <div class="slideshow-container">
+    
+    
+            <div class="mySlides fade">
+              <div class="numbertext">1/ 7</div>
+              <img src="https://yogshakti.com/wp-content/uploads/2018/08/Ayurvedic-Banner.jpg" style="width:100%" height="350px">
+              
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">2/ 7</div>
+              <img src="https://www.alvasayurveda.com/wp-content/uploads/2016/08/banner-1.jpg" style="width:100%" height="350px">
+              
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 7</div>
+              <img src="http://ayurvedatreatments.net/admin/upload/23542336_gallery_banner03.jpg" style="width:100%" height="350px">
+          
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">4/ 7</div>
+              <img src="https://ayurvedatreatments.net/images/banner02.jpg" style="width:100%" height="350px">
+        
+            </div>
+    
+            <div class="mySlides fade">
+                <div class="numbertext">5/ 7</div>
+                <img src="https://healthmassage.co.uk/wp-content/uploads/2017/11/cropped-002.jpg" style="width:100%" height="350px">
+          
+              </div>
+    
+              <div class="mySlides fade">
+                <div class="numbertext">6/ 7</div>
+                <img src="http://ayurvision.org/images/Ayurveda.png" style="width:100%" height="350px">
+          
+              </div>
+    
+              <div class="mySlides fade">
+                <div class="numbertext">7/ 7</div>
+                <img src="https://www.ayurvedicpharmacompanies.com/wp-content/uploads/2019/09/Ayurvedic-Medicine-Manufacturers-in-Telangana.jpg" style="width:100%" height="350px">
+          
+             
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+            
+            <script>
+            let slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              let dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 2000); // Change image every 2 seconds
+            }
+            </script>
+            <section id="feature" class="section-p1">
+
+                <div class="fe-box">
+                    <img src="img/features/f1.png" alt="">
+                    <h6>Free Resource</h6>
+                </div>
+        
+                <div class="fe-box">
+                    <img src="img/features/f2.png" alt="">
+                    <h6>Save Time</h6>
+                </div>
+        
+                <div class="fe-box">
+                    <img src="img/features/f3.png" alt="">
+                    <h6>Save Money</h6>
+                </div>
+        
+                <div class="fe-box">
+                    <img src="img/features/f4.png" alt="">
+                    <h6>Save Money</h6>
+                </div>
+                <div class="fe-box">
+                    <img src="img/features/f5.png" alt="">
+                    <h6>Happy Life</h6>
+                </div>
+        
+                <div class="fe-box">
+                    <img src="img/features/f6.png" alt="">
+                    <h6>F24/7 Support</h6>
+                </div>
+        
+            </section>
+        
+            <section id="products1" class="section-p1">
+              <style>
+                h1 {
+                  text-align: center;
+                  padding-top: 100px;
+                }
+              </style>
+              <h1>Top Herbal Plants</h1>
+      
+                
+        </div>
+        <div class="category-section">
+            <ul>
+                <li>
+                    <a href="categories.html"><img src="https://natureworldwide.in/wp-content/uploads/2023/09/aloe-vera-2631853_640-1.jpg" height="90px"/></a>
+                    <span>Aloe Vera </span>
+                </li>
+                
+                <li>
+                    <a href="categories.html"><img src="https://natureworldwide.in/wp-content/uploads/2023/09/turmeric-5286228_640.jpg" height="90px"/></a>
+                   <span>Turmeric</span>
+                </li>
+                <li>
+                    <a href="categories.html"><img src="https://natureworldwide.in/wp-content/uploads/2023/09/lavender-1117275_640.jpg" height="90px"/></a>
+                    <span>Lavender</span>
+                </li>
+                <li>
+                    <a href="categories.html"><img src="https://natureworldwide.in/wp-content/uploads/2023/09/flower-910846_640.jpg" height="90px"/></a>
+                    <span>Echinacea</span>
+                </li>
+                <li>
+                    <a href="categories.html"><img src="https://natureworldwide.in/wp-content/uploads/2023/09/ginger-5108742_640-1.jpg" height="90px"/></a>
+                    <span>Ginger</span>
+                </li>
+                <li>
+                    <a href="categories.html"><img src="https://natureworldwide.in/wp-content/uploads/2023/09/chamomile-3489847_640.jpg" height="90px" /></a>
+                    <span>Chamomile</span>
+                </li>
+                <li>
+                    <a href="categories.html"> <img src="https://natureworldwide.in/wp-content/uploads/2023/09/mint-5239190_640.jpg" height="90px"/></a>
+                    <span>Peppermint</span>
+                </li>
+                <li>
+                    <a href="categories.html"><img src="https://natureworldwide.in/wp-content/uploads/2023/09/ginseng-3404958_640.jpg" height="90px"/></a>
+                    <span>Ginseng </span>
+                </li>
+                <li>
+                    <a href="categories.html"><img src="https://natureworldwide.in/wp-content/uploads/2023/09/garlic-3419544_640-1.jpg" height="90px"/></a>
+                    <span>Garlic</span>
+                </li>
+                <li>
+                    <a href="categories.html"><img src="https://natureworldwide.in/wp-content/uploads/2023/09/valeriana-officinalis-846615_640.jpg" height="90px"/></a>
+                    <span>Valerian </span>
+                </li>
+            </ul>
+        </div>
+        <style>
+          h1 {
+            text-align: center;
+            padding-top: 100px;
+          }
+        </style>
+        <h1>Indoor Plants</h1>
+
+        <div class="wrapper">
+          <div class="card">
+         <img src="https://greenripegarden.com/wp-content/uploads/2020/04/Aloe-Vera-Plant-2048x1365.jpg" alt="">
+            <div class="info">
+              <h1>Aloe Vera</h1>
+              <p>Aloe Vera is a medicinal plant </p>
+              <a href="Indoorplants/alovera.html" class="btn">Read More</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://indiagardening.b-cdn.net/wp-content/uploads/2021/04/Tulsi2.jpg" alt="">
+            <div class="info">
+              <h2>Tulsi (Holy Basil)</h2>
+              <p>It is widely used as an herbal tea, commonly used in Ayurveda.</p>
+              <a href="#" class="btn">Read More</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://indiagardening.b-cdn.net/wp-content/uploads/2021/04/Mint-2.jpg" alt="">
+            <div class="info">
+              <h1>Pudina (Mint)</h1>
+              <p>Pudina is well known for its refreshing taste and smell</p>
+              <a href="#" class="btn">Read More</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://indiagardening.b-cdn.net/wp-content/uploads/2021/04/Mustard.jpg" alt="">
+            <div class="info">
+              <h1>Sarson (Mustard)</h1>
+              <p> Mustard is widely used in Indian kitchens for both its taste and health benefits. </p>
+              <a href="#" class="btn">Read More</a>
+            </div>
+          </div>
+          </div>
+          <div class="wrapper">
+          <div class="card">
+            <img src="https://indiagardening.b-cdn.net/wp-content/uploads/2021/04/Carom.jpg" alt="">
+            <div class="info">
+              <h1>Ajwain (Carom)</h1>
+              <p>Helps with digestion and acidity, Treats ulcers</p>
+              <a href="#" class="btn">Read More</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://indiagardening.b-cdn.net/wp-content/uploads/2021/04/Coriander.jpg" alt="">
+            <div class="info">
+              <h1>Dhaniya (Coriander)</h1>
+              <p>This herb needs moist soil with good drainage and 3-4 hours of bright, indirect sunlight.</p>
+              <a href="#" class="btn">Read More</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://indiagardening.b-cdn.net/wp-content/uploads/2021/04/Fenugreek.jpg" alt="">
+            <div class="info">
+              <h1>Methi (Fenugreek)</h1>
+              <p>Methi is a very common vegetable and spice in India.</p>
+              <a href="#" class="btn">Read More</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://indiagardening.b-cdn.net/wp-content/uploads/2021/04/Marigold-1.jpg" alt="">
+            <div class="info">
+              <h1>Genda (Marigold)</h1>
+              <p>A room with a balcony, where it can avail 3-5 hours of sunlight would be great.</p>
+              <a href="#" class="btn">Read More</a>
+            </div>
+          </div>
+        </div>
+      
+        <style>
+          h1 {
+            text-align: center;
+            padding-top: 100px;
+          }
+        </style>
+        <h1>Outdoor Plants</h1>
+
+        <div class="wrapper">
+          <div class="card">
+            <img src="https://indiagardening.b-cdn.net/wp-content/uploads/2021/08/Brahmi.jpg" alt="">
+            <div class="info">
+              <h1>Brahmi</h1>
+              <p>The plant helps in improving memory, relieving anxiety, lowers stress, ADHD. </p>
+              <a href="#" class="btn">Read More</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://indiagardening.b-cdn.net/wp-content/uploads/2021/08/Ashwagandha.jpg" alt="">
+            <div class="info">
+              <h1> Ashwagandha</h1>
+              <p>The powdered root is mixed with ghee and honey and can be consumed to alleviate insomnia, stress, and dementia.</p>
+              <a href="#" class="btn">Read More</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://indiagardening.b-cdn.net/wp-content/uploads/2021/08/Giloy.jpg" alt="">
+            <div class="info">
+              <h1>Giloy</h1>
+              <p>Giloy is a herbaceous creeping vine plant native to the Indian tropical region. </p>
+              <a href="#" class="btn">Read More</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://indiagardening.b-cdn.net/wp-content/uploads/2021/08/Basil.jpeg" alt="">
+            <div class="info">
+              <h1> Basil</h1>
+              <p>Its regular consumption also keeps diabetes and high cholesterol in check. </p>
+              <a href="#" class="btn">Read More</a>
+            </div>
+          </div>
+          </div>
+          <div class="wrapper">
+            <div class="card">
+              <img src="https://indiagardening.b-cdn.net/wp-content/uploads/2021/08/Ajwain.jpg" alt="">
+              <div class="info">
+                <h1> Ajwain</h1>
+                <p>This aromatic, herbaceous plant is native to Persia and India.  </p>
+                <a href="#" class="btn">Read More</a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="https://indiagardening.b-cdn.net/wp-content/uploads/2021/08/Sagargota.jpg" alt="">
+              <div class="info">
+                <h1>  Sagargota</h1>
+                <p>Sagargota seeds have antiseptic and astringent properties. </p>
+                <a href="#" class="btn">Read More</a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="https://indiagardening.b-cdn.net/wp-content/uploads/2021/08/Chamomile.jpg" alt="">
+              <div class="info">
+                <h1>Chamomile</h1>
+                <p>chamomile flower tea consumption provides instant relief in stomach upset. </p>
+                <a href="#" class="btn">Read More</a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="https://indiagardening.b-cdn.net/wp-content/uploads/2021/08/Arka.jpg" alt="">
+              <div class="info">
+                <h1>Rui / Arka / Mandar</h1>
+                <p>The root bark cures intestinal worms, cough, and constipation. </p>
+                <a href="#" class="btn">Read More</a>
+              </div>
+            </div>
+            </div>
+
+            <section id="newletter" class="section-p1 section-m1">
+        <div class="newtext">
+            <h4>Sign Up For newletters</h4>
+            <p>The plants have enough spirit to transform our <span>limited vision.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" img src="https://i.pinimg.com/originals/33/14/ea/3314ea98b21217ad1c66bcae14ecfdaa.png" width="150px" height="100px" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> DV Group of Companies,Pitam Pura,
+                Delhi-110034, India</p>
+            <p><strong>Phone:</strong> +91 7865654598 / 2756765764</p>
+            <p><strong>Hours:</strong> 10:00 -10:00, Mon-Sat </p>
+            <div class="follow">
+                <h4>follow us</h4>
+                <div class="icon">
+                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                    <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                    <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact us </a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View gallery</a>
+            <a href="#">My Wishlist</a>
+            <a href="#"> Help </a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p>© 2023,Rahul -Ecommerce Template </p>
+        </div>
+
+    </footer>
+
+    
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
